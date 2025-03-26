@@ -1,1 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Geist", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #f0f0f0;
+  background-color: white;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.025rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.025rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.025rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.025rem;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 1.5rem;
+  border-left-width: 2px;
+  margin-top: 1.5rem;
+}
+
+a {
+  text-underline-offset: 4px;
+  text-decoration-line: underline;
+  color: var(--p-primary-color);
+  font-weight: 500;
+}
+
+ul {
+  margin: 1.5rem;
+  margin-right: 0rem;
+  list-style: disc;
+}
+
+li {
+  margin-top: 0.5rem;
+}
