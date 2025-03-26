@@ -95,3 +95,36 @@ ul {
 li {
   margin-top: 0.5rem;
 }
+
+//Utility classes
+.border {
+  border-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-l {
+  border-left-width: 1px;
+}
+
+.border-r {
+  border-right-width: 1px;
+}
+
+@for $i from 1 through 16 {
+  .mt-#{$i} {
+    margin-top: $i * 0.25rem;
+  }
+}
+
+@for $i from 1 through 16 {
+  .pb-#{$i} {
+    padding-bottom: $i * 0.25rem;
+  }
+}
